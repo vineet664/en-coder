@@ -1,8 +1,5 @@
 services:
     build:
-  context: .
-  dockerfile: Dockerfile
-  target: prod
   args:
     environment:
       API_ID: $API_ID  
