@@ -1,5 +1,6 @@
 services:
-    build:
+    build: 
+    Context: .
   args:
     environment:
       API_ID: $API_ID  
